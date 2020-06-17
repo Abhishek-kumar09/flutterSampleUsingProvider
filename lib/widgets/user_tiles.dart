@@ -20,7 +20,7 @@ class UserTile extends StatelessWidget {
     return Card(
       child: ListTile(
         leading:
-            Padding(padding: EdgeInsets.only(top: 10), child: Text("$id.")),
+            Padding(padding: EdgeInsets.only(top: 10), child: Text("$id.", style: blackStyle, textScaleFactor: 1.1,)),
         title: Text(
           name,
           textScaleFactor: 1.05,          
