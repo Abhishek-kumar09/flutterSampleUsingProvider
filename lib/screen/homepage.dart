@@ -7,11 +7,12 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "Employee App",
-            style: TextStyle(color: Colors.black),
+            "Application Employee Header",
+            style: TextStyle(color: Colors.green),
           ),
-          backgroundColor: Colors.amber,
+          backgroundColor: Colors.amber[900],
         ),
+      
         body: EmployeeList());
   }
 }
